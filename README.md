@@ -22,6 +22,7 @@ The purpose of this analysis is to help a data scientist at **Alphabet Soup** bu
 
 ![nn](/challenge/Resources/org_model_layers.png)
 
+* The model
 * Were you able to achieve the target model performance?
 * What steps did you take to try and increase model performance?
 
