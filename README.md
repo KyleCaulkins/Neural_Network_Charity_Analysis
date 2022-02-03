@@ -7,13 +7,13 @@ The purpose of this analysis is to help a data scientist at **Alphabet Soup** bu
 ## Results
 
 ### Data Preprocessing
-* The data used for processing 
+* The data used for processing is in a flat file found [here.](/charity_data.csv)
 
-* What variable(s) are considered the target(s) for your model?
+* The target variable for the deep learning model: *IS_SUCCESSFUL* 
 
-* What variable(s) are considered to be the features for your model?
+* The features for this model: *APPLICATION_TYPE*, *AFFILIATION*, *CLASSIFICATION*, *USE_CASE*, *ORGINIZATION*, *STATUS*, *INCOME_AMT*, *SPECIAL_CONSIDERATIONS*, *ASK_AMT*
 
-* What variable(s) are neither targets nor features, and should be removed from the input data?
+* Variables that are not targets or features for this dataset are: *EIN*, *NAME*. These identifiers do not contribute to the analysis and are removed. 
 
 Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
