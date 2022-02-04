@@ -22,17 +22,26 @@ The purpose of this analysis is to help a data scientist at **Alphabet Soup** bu
 
 ![nn](/challenge/Resources/org_model_layers.png)
 
-* The model
-* Were you able to achieve the target model performance?
+* The orignial model is not able to reach the 75% accuracy performance target.
+
 ![m_eval](/challenge/Resources/org_evaluation.png)
-* What steps did you take to try and increase model performance?
+
+* The first attempt at improving model performance is to reduce the input features. Two more features are removed, *USE_CASE* and *SPECIAL_CONSIDERATIONS*. This move did show some inprovement in final model accuracy.  
 ![a1_eval](/challenge/Resources/a1_evaluation.png)
+
+* The second attempt at improving model performance is to add more neurons to hidden layers. Original model features are used. No accuracy improvement is noted.
 
 ![a2_eval](/challenge/Resources/a2_evaluation.png)
 
+* The third attempt at improving model performance is to add another hidden layer. Original model features, and neurons are used. No accuracy improvement is noted.
+
 ![a3_eval](/challenge/Resources/a3_evaluation.png)
 
+* The fourth attempt at improving model performance is to use the tanh activation function for the hidden layers. Original model features, and neurons are used. No accuracy improvement is noted.
+
 ![a4_eval](/challenge/Resources/a4_evaluation.png)
+
+* The fifth attempt at improving model performance is to use reduced model features and halve the neurons in the hidden layers. Two more features are removed, *USE_CASE* and *SPECIAL_CONSIDERATIONS*. No accuracy improvement is noted.
 
 ![a5_eval](/challenge/Resources/a5_evaluation.png)
 
