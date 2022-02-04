@@ -27,6 +27,7 @@ The purpose of this analysis is to help a data scientist at **Alphabet Soup** bu
 ![m_eval](/challenge/Resources/org_evaluation.png)
 
 * The first attempt at improving model performance is to reduce the input features. Two more features are removed, *USE_CASE* and *SPECIAL_CONSIDERATIONS*. This move did show some inprovement in final model accuracy.  
+
 ![a1_eval](/challenge/Resources/a1_evaluation.png)
 
 * The second attempt at improving model performance is to add more neurons to hidden layers. Original model features are used. No accuracy improvement is noted.
@@ -46,4 +47,5 @@ The purpose of this analysis is to help a data scientist at **Alphabet Soup** bu
 ![a5_eval](/challenge/Resources/a5_evaluation.png)
 
 ## Summary
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
+After several attempts at optimizing the model, the accuracy target of better than 75% is not achieved. The accuracy score, aside from attempt five, does not seem to be overfitting. Attempt five accuracy score indicates overfitting. The best accuracy score achieved was the first attempt at optimization, where features were removed, and an accuracy score of 70% is achieved. If the organization decides the model idea is worth more time and resources, there are some recommendations to be pursued. The first recommendation is to pursue more relevant variables that could provide more information on the recipient charities. More data would provide additional features, and it is possible there is a better indicator than the current features. The second recommendation is to try other models, such as the random forest classifier. Although the dataset is large, the neural network may require a much larger dataset to reach the desired accuracy.
