@@ -24,7 +24,17 @@ The purpose of this analysis is to help a data scientist at **Alphabet Soup** bu
 
 * The model
 * Were you able to achieve the target model performance?
+![m_eval](/challenge/Resources/org_evaluation.png)
 * What steps did you take to try and increase model performance?
+![a1_eval](/challenge/Resources/a1_evaluation.png)
+
+![a2_eval](/challenge/Resources/a2_evaluation.png)
+
+![a3_eval](/challenge/Resources/a3_evaluation.png)
+
+![a4_eval](/challenge/Resources/a4_evaluation.png)
+
+![a5_eval](/challenge/Resources/a5_evaluation.png)
 
 ## Summary
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
